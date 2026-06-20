@@ -459,7 +459,7 @@ elif st.session_state.stage == 4:
 
 # 环节 5 (重点动画修复区)
 elif st.session_state.stage == 5:
-    col1, col2 = st.columns([3, 3]) 
+    col1, col3,col2 = st.columns([3,1, 3]) 
     with col1:
         try:
             st.image("travel.jpg", use_container_width=True)

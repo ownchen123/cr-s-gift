@@ -459,19 +459,19 @@ elif st.session_state.stage == 4:
 
 # 环节 5 (重点动画修复区)
 elif st.session_state.stage == 5:
-    col1, col2 = st.columns([2, 3]) 
+    col1, col2 = st.columns([3, 3]) 
     with col1:
         try:
             st.image("travel.jpg", use_container_width=True)
         except:
             st.caption("（请上传 travel.jpg ）")
     with col2:
-        sub_col1, sub_col2, sub_col3 = st.columns([1, 6, 1]) 
-        with sub_col2:
-            try:
-                st.image("solo.jpg", use_container_width=True)
-            except:
-                st.caption("（请上传 solo.jpg ）")
+        # sub_col1, sub_col2, sub_col3 = st.columns([1, 6, 1]) 
+        # with col2:
+         try:
+             st.image("solo.jpg", use_container_width=True)
+         except:
+             st.caption("（请上传 solo.jpg ）")
             
     st.markdown("<br>", unsafe_allow_html=True)
     

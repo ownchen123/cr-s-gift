@@ -555,7 +555,7 @@ elif st.session_state.stage == 6:
         """, unsafe_allow_html=True)
     st.markdown("<br>", unsafe_allow_html=True)
 
-    col1, col2 = st.columns([6, 4])
+    col1, col2 = st.columns([4, 4])
     
     with col1:
         try:

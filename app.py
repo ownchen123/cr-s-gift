@@ -420,7 +420,7 @@ elif st.session_state.stage == 3:
             
     st.markdown("""
         <div class="terminal-box">
-        竟然一晃又是12年过去了，那天，是我的19岁生日……
+        竟然一晃又是12年过去了……
         </div>
         """, unsafe_allow_html=True)
     
@@ -443,7 +443,7 @@ elif st.session_state.stage == 4:
     col1, col2, col3 = st.columns([1, 2, 1])
     with col2:
         try:
-            st.image("college.jpg", caption="2023.9.16", use_container_width=True)
+            st.image("college.jpg", caption="", use_container_width=True)
         except:
             st.caption("（请上传 college.jpg）")
     
@@ -459,7 +459,7 @@ elif st.session_state.stage == 4:
 
 # 环节 5 (重点动画修复区)
 elif st.session_state.stage == 5:
-    col1, col2 = st.columns([3, 2]) 
+    col1, col2 = st.columns([2, 1,3]) 
     with col1:
         try:
             st.image("travel.jpg", use_container_width=True)
@@ -555,7 +555,7 @@ elif st.session_state.stage == 6:
         """, unsafe_allow_html=True)
     st.markdown("<br>", unsafe_allow_html=True)
 
-    col1, col2 = st.columns([4, 5])
+    col1, col2 = st.columns([6, 4])
     
     with col1:
         try:
